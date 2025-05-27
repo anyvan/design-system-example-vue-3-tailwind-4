@@ -1,0 +1,40 @@
+{
+  "name": "@anyvan-ui/modal",
+  "version": "0.3.0+e18d572c",
+  "description": "Modal component",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./index.css": "./dist/index.css",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "tsdown ./index.ts",
+    "publish:local": "yalc publish --push --sig"
+  },
+  "dependencies": {
+    "@anyvan-ui/checkbox": "*",
+    "@anyvan-ui/icons": "*"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^4.0.0",
+    "vue": "^3.0.0"
+  },
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anyvan/design-system.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/anyvan/design-system#readme",
+  "gitHead": "afd09e87e8bb7381f7ae7df5e5ee988d7b8e6844",
+  "yalcSig": "e18d572cec572f814686056aa5cb58a2"
+}

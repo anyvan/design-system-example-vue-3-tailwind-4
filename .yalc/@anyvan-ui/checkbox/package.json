@@ -1,0 +1,33 @@
+{
+  "name": "@anyvan-ui/checkbox",
+  "version": "0.2.1+8719837a",
+  "description": "Checkbox component",
+  "files": [
+    "dist/Checkbox.css"
+  ],
+  "exports": {
+    "./Checkbox.css": "./dist/Checkbox.css"
+  },
+  "scripts": {
+    "build": "tsup *.css",
+    "publish:local": "yalc publish --push --sig"
+  },
+  "dependencies": {
+    "@anyvan-ui/icons": "*"
+  },
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anyvan/design-system.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@anyvan-ui/theme": "*",
+    "tailwindcss": "^4.0.0"
+  },
+  "homepage": "https://github.com/anyvan/design-system#readme",
+  "gitHead": "afd09e87e8bb7381f7ae7df5e5ee988d7b8e6844",
+  "yalcSig": "8719837aa8f34f61d43649163a559d75"
+}
